@@ -22,7 +22,18 @@ This library is in its first version and does not contain much, so for any sugge
 
 ## Getting Started
 ```kotlin
-implementation 'com.github.Fmoath:AndroidValidationLibrary:1.0.0'
+allprojects {
+    repositories {
+  	  //...
+  	  maven { url 'https://jitpack.io' }
+    }
+}
+```
+  
+```kotlin
+dependencies {
+    implementation 'com.github.Fmoath:AndroidValidationLibrary:1.0.0'
+}
 ```
 
 ## To check whether the text elements are empty or not
