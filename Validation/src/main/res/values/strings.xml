@@ -1,0 +1,8 @@
+<resources>
+
+    //==============================================================================================
+    // Errors ...
+    <string name="error_empty">الرجاء التحقق من إدخال %1$s</string>
+    <string name="error_incorrect">الرجاء التحقق من صحة %1$s</string>
+
+</resources>
